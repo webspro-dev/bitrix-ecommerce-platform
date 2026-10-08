@@ -1,0 +1,7 @@
+.catalog { max-width: 1200px; margin: 0 auto; padding: 24px; }
+.catalog__filter { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-bottom:24px; }
+.catalog__grid { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+.product-card { padding:20px; border:1px solid #ddd; border-radius:10px; display:grid; gap:12px; }
+.product-card__price { font-size:20px; font-weight:700; }
+@media(max-width:900px){.catalog__filter{grid-template-columns:repeat(2,1fr)}.catalog__grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.catalog__filter,.catalog__grid{grid-template-columns:1fr}}

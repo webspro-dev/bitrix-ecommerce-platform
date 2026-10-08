@@ -1,0 +1,5 @@
+external_id,name,article,price,currency,brand
+1001,Apple iPhone 15,APL-IPH15,89990,RUB,Apple
+1002,Samsung Galaxy S24,SAM-S24,79990,RUB,Samsung
+1003,MacBook Air M3,APL-MBA-M3,149990,RUB,Apple
+1004,Lenovo ThinkPad E14,LEN-E14,89990,RUB,Lenovo

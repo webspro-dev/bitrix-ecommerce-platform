@@ -1,0 +1,13 @@
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/upload/*
+!/upload/.gitkeep
+/vendor/
+/node_modules/
+.env
+.idea/
+.vscode/
+*.log
+/local/logs/*
+.phpunit.result.cache
